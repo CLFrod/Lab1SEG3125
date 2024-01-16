@@ -2,13 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Survey</title>
     <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
 </head>
 <body>
 <h1>UI Survey</h1>
-<h2>What do you think of <a href="https://www.youtube.com/">YouTube's</a> UI?</h2>
+<h2>What do you think of <a href="https://www.youtube.com/" target="_blank">YouTube's</a> UI?</h2>
 <img>
+
+
+<form>
+    <!-- Text-type Question -->
+    <div class="question-box">
+        <label style="display: block; margin-bottom: 10px;"> <b>Describe your initial impression of the user interface below in 5 words.</b> </label>
+        <input style="margin-right: 0;"  type="textarea" id="textAnswer" name="textAnswer" size="50" placeholder="Enter you answer here......" onsubmit="">
+    </div>
+
+    <!-- Multiple Choice Question 1 -->
+    <div class="question-box">
+        <label style="display: block; margin-bottom: 10px;"><b>How would you rate the overall usability of the UI?</b></label>
+        <label for="Q1A">Excellent</label><input type="radio" id="Q1A" name="Q1">
+        <label for="Q1B">Good</label><input type="radio" id="Q1B" name="Q1">
+        <label for="Q1C">Fair</label><input type="radio" id="Q1C" name="Q1">
+        <label for="Q1D">Poor</label><input type="radio" id="Q1D" name="Q1">
+        <label for="Q1E" >E.</label><input type="radio" id="Q1E" name="Q1" style="margin-right: 0px;">
+        <br>
+    </div>
+
+    <!-- Multiple Choice Question 2 -->
+    <div class="question-box">
+        <label style="display: block; margin-bottom: 10px;"><b>How would you rate the overall aesthetic appeal of the UI?</b></label>
+        <label for="Q2A">Excellent</label><input type="radio" id="Q2A" name="Q2">
+        <label for="Q2B">Very Good</label><input type="radio" id="Q2B" name="Q2">
+        <label for="Q2C">Good</label><input type="radio" id="Q2C" name="Q2">
+        <label for="Q2D">Fair</label><input type="radio" id="Q2D" name="Q2">
+        <label for="Q2E">Poor</label><input type="radio" id="Q2E" name="Q2" style="margin-right: 0px;">
+        <br>
+    </div>
+
+    <!-- Selection Question -->
+    <div class="question-box">
+        <label style="display: block; margin-bottom: 10px;"><b>Select the UI elements that you find most appealing or effective:</b></label>
+        <label for="Q3A">Color Scheme</label><input type="checkbox" id="Q3A" name="Q3">
+        <label for="Q3B">Typography</label><input type="checkbox" id="Q3B" name="Q3">
+        <label for="Q3C">Iconography</label><input type="checkbox" id="Q3C" name="Q3"> <br>
+        <label for="Q3D">Button Design</label><input type="checkbox" id="Q3D" name="Q3">
+        <label for="Q3E">Layout Structure</label><input type="checkbox" id="Q3E" name="Q3" style="margin-right: 0px;">
+        <br>
+    </div>
+
+
+    <!-- Comment -->
+    <div class="comment-box">
+        <label for="Comment" style="text-align: left; display: block; margin-bottom: 10px;"><b>Comment: </b></label>
+        <textarea id="comment" name="comment" placeholder="Enter your comment here......"></textarea>
+    </div>
+</form>
 
 
 </body>

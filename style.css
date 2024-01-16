@@ -12,3 +12,42 @@ body{
     background-color: lightsteelblue;
 }
 
+
+input[type="text"] {
+    height: 66px; /* Modify this value to adjust the height */
+    border-radius: 5px;
+}
+
+.question-box {
+    border-radius: 5px;
+    border: 4px solid #ccc;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 600px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.question-box input{
+    margin-right: 40px;
+}
+
+.comment-box {
+    border-radius: 5px;
+    border: 4px solid #ccc;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 600px;
+    height: 150px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.comment-box #comment{
+    margin-top: -5px;
+    width: 90%;
+    height: 70%;
+    resize: none;
+}
