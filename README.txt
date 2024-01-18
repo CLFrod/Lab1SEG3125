@@ -1,4 +1,4 @@
 Member:
 
-Brian Liang;  300 317 259
+Brian Liang;  300317259
 
